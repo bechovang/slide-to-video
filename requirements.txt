@@ -1,4 +1,4 @@
 moviepy==1.0.3
-pdf2image==1.16.0
-pysrt==1.1.2
-pillow==8.4.0
+PyMuPDF
+pysrt
+Pillow==9.5.0
