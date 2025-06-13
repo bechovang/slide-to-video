@@ -1,6 +1,3 @@
-# slide-to-video
-
-
 
 # Slide-to-Video Project
 
@@ -8,31 +5,27 @@ Dự án này chuyển đổi file **PDF slide** thành video full HD với âm 
 
 ## Tính năng
 
-* **Chuyển đổi PDF thành hình ảnh**: Mỗi trang trong file PDF sẽ được chuyển thành một hình ảnh.
-* **Kết hợp âm thanh và hình ảnh**: Âm thanh từ file **`.wav`** sẽ được kết hợp với các hình ảnh từ slide để tạo thành video.
-* **Thêm phụ đề (SRT)**: Phụ đề được lấy từ file **`.srt`** và hiển thị đúng thời gian, không bị đè lên slide.
-* **Thời gian chuyển slide**: Thời gian hiển thị của mỗi slide được lấy từ file **`time_transactions.txt`** để điều chỉnh thời gian hiển thị của các slide.
-* **Tạo 2 video**:
-
-  * **Video không có phụ đề**.
-  * **Video có phụ đề**.
+- **Chuyển đổi PDF thành hình ảnh**: Mỗi trang trong file PDF sẽ được chuyển thành một hình ảnh.
+- **Kết hợp âm thanh và hình ảnh**: Âm thanh từ file **`.wav`** sẽ được kết hợp với các hình ảnh từ slide để tạo thành video.
+- **Thêm phụ đề (SRT)**: Phụ đề được lấy từ file **`.srt`** và hiển thị đúng thời gian, không bị đè lên slide.
+- **Thời gian chuyển slide**: Thời gian hiển thị của mỗi slide được lấy từ file **`time_transactions.txt`** để điều chỉnh thời gian hiển thị của các slide.
+- **Tạo 2 video**:
+  - **Video không có phụ đề**.
+  - **Video có phụ đề**.
 
 ## Yêu cầu
 
 1. **Python 3.x**
-
 2. **Các thư viện Python cần thiết**: Cài đặt các thư viện cần thiết bằng lệnh:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 3. **File đầu vào**:
-
-   * **PDF**: File slide cần chuyển thành video (ví dụ: `slide.pdf`).
-   * **Audio**: File âm thanh đi kèm cho video (ví dụ: `audio.wav`).
-   * **SRT**: File phụ đề tương ứng với âm thanh (ví dụ: `script.srt`).
-   * **Time Transactions**: File **`time_transactions.txt`** để xác định thời gian hiển thị của mỗi slide.
+   - **PDF**: File slide cần chuyển thành video (ví dụ: `slide.pdf`).
+   - **Audio**: File âm thanh đi kèm cho video (ví dụ: `audio.wav`).
+   - **SRT**: File phụ đề tương ứng với âm thanh (ví dụ: `script.srt`).
+   - **Time Transactions**: File **`time_transactions.txt`** để xác định thời gian chuyển slide.
 
 ## Cài đặt và sử dụng
 
@@ -41,10 +34,9 @@ Dự án này chuyển đổi file **PDF slide** thành video full HD với âm 
 Trước khi bắt đầu, hãy tạo một **virtual environment** để quản lý các thư viện Python.
 
 #### Trên Windows:
-
 ```bash
 python -m venv venv
-```
+````
 
 #### Trên macOS/Linux:
 
